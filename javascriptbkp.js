@@ -9,6 +9,8 @@ let criptoSelector = document.querySelector("#criptoSelector")
 criptoSelector.addEventListener('change', () => {
     if(criptoSelector.value === "1"){
         chave.classList.remove("hide")
+    }else{
+        chave.classList.add("hide")
     }
 })
 
