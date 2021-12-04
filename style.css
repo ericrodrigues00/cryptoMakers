@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    font-size: 12px;
+}
+
+body{
+    background-color: #191414;
+    
+}
+
+.formCripto{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 75%;
+    padding: 20px;
+   border: 5px #39FF14 solid;
+    
+}
+.button{
+    width: 32%;
+    height: 40px;
+    font-family: 'Press Start 2P', cursive;
+   
+}
+
+.button:hover{
+    border: 2px #39FF14 solid;
+}
+
+
+#textUser{
+    font-family: 'Press Start 2P', cursive;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    width: 65%;
+    height: 35px;
+    letter-spacing: 2px;
+}
+
+#textUser:hover{
+    border: 2px #39FF14 solid;
+    cursor: pointer;
+}
+
+#criptoSelector{
+    width: 65%;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    font-family: 'Press Start 2P', cursive;
+}
+
+.hide{
+    display: none;
+}
+
+
+#numberChave{
+    width: 65%;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+    #numberChave:hover{
+        border: 2px #39FF14 solid;
+        cursor: pointer;
+    }
+
+.optionCodificar{
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    flex-direction: column;
+    
+}
+
+.areaExibir{
+    width: 65%;
+    height: 25%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.title{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 21px;
+    text-align: center;
+
+}

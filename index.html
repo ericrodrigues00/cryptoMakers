@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passinho do Romano.</title>
+</head>
+<body>
+    
+    <section class="formCripto">
+    
+    <fieldset class="formulario">
+        <legend class="title">CryptoMaker</legend>
+        <input type="text" name="texto" id="textUser" placeholder="Insira o texto">
+        <select name="criptoSelect" id="criptoSelector">
+                <option value="0">Selecione uma Criptografia</option>  
+                <option value="1">Cifra de Cesar</option>
+                <option value="2">Base 64</option>  
+        <input type="number" id="numberChave" class="hide" name="chave" min="1" max="25" placeholder="Insira aqui o numero desejado">
+
+        
+            <div class="optionCodificar">
+                <div class="group one">
+                <input type="radio" value="cripto" name="funcBtn"  id="codificar" checked>
+                <label for="codificar">Codificar</label>
+                </div>
+                <div class="group two">
+                <input type="radio" value="descripto" name="funcBtn" id="decodificar">
+                <label for="decodificar">Decodificar</label>
+                </div>
+            </div>
+        <button class="button" id="enviar">Codificar</button>
+        <div class="areaExibir">
+        <p id="mensagem"></p>
+        </div>
+    </fieldset>
+        
+    </section>
+
+    <script src="javascriptbkp.js"></script>
+</body>
+</html>
